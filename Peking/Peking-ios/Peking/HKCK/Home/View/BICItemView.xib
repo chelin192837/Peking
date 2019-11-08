@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BICItemView">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9999.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awg-J3-UPz">
+                    <rect key="frame" x="47" y="36" width="56" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$9999.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLP-jV-cbD">
+                    <rect key="frame" x="48.5" y="58" width="53" height="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+ 100.22 3.22%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23o-vr-5jU">
+                    <rect key="frame" x="18.5" y="77" width="113" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BTC/USDT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXP-BI-yXz">
+                    <rect key="frame" x="33.5" y="10" width="83" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fXP-BI-yXz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1V6-Hr-RG0"/>
+                <constraint firstItem="eLP-jV-cbD" firstAttribute="top" secondItem="awg-J3-UPz" secondAttribute="bottom" constant="5" id="O0L-20-qsl"/>
+                <constraint firstItem="awg-J3-UPz" firstAttribute="top" secondItem="fXP-BI-yXz" secondAttribute="bottom" constant="5" id="QQM-sG-79N"/>
+                <constraint firstItem="23o-vr-5jU" firstAttribute="top" secondItem="eLP-jV-cbD" secondAttribute="bottom" constant="5" id="a14-Jn-rFk"/>
+                <constraint firstItem="eLP-jV-cbD" firstAttribute="centerX" secondItem="awg-J3-UPz" secondAttribute="centerX" id="l9w-eJ-UmN"/>
+                <constraint firstItem="23o-vr-5jU" firstAttribute="centerX" secondItem="eLP-jV-cbD" secondAttribute="centerX" id="s21-a1-67E"/>
+                <constraint firstItem="awg-J3-UPz" firstAttribute="centerX" secondItem="fXP-BI-yXz" secondAttribute="centerX" id="x3v-9A-r8t"/>
+                <constraint firstItem="fXP-BI-yXz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="yI7-p4-6a3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.59999999999999" y="152.92353823088456"/>
+        </view>
+    </objects>
+</document>

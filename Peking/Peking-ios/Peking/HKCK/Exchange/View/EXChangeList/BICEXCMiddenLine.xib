@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5SP-c8-e8a" customClass="BICEXCMiddenLine">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="28"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view hidden="YES" alpha="0.10000000149011612" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HOT-1J-5iE">
+                    <rect key="frame" x="0.0" y="4" width="100" height="20"/>
+                    <color key="backgroundColor" red="1" green="0.20000000000000001" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="EYz-at-L46"/>
+                        <constraint firstAttribute="width" constant="100" id="nrs-fr-dyb"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MV2-he-uR9">
+                    <rect key="frame" x="294.5" y="7" width="25.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.3921568627" green="0.40000000000000002" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDH-rv-CDL">
+                    <rect key="frame" x="0.0" y="7" width="25.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.39215686274509803" green="0.40000000000000002" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTV-96-Vvj">
+                    <rect key="frame" x="147.5" y="7" width="25.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.3921568627" green="0.40000000000000002" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HOT-1J-5iE" firstAttribute="leading" secondItem="Kzf-70-0dA" secondAttribute="leading" id="3tv-Ct-7FX"/>
+                <constraint firstItem="HOT-1J-5iE" firstAttribute="centerY" secondItem="Kzf-70-0dA" secondAttribute="centerY" id="4ew-MC-X7t"/>
+                <constraint firstItem="DDH-rv-CDL" firstAttribute="leading" secondItem="Kzf-70-0dA" secondAttribute="leading" id="Cjm-11-dha"/>
+                <constraint firstItem="zTV-96-Vvj" firstAttribute="centerX" secondItem="Kzf-70-0dA" secondAttribute="centerX" id="EuP-PO-iYk"/>
+                <constraint firstItem="MV2-he-uR9" firstAttribute="centerY" secondItem="HOT-1J-5iE" secondAttribute="centerY" id="N2S-Wp-rpE"/>
+                <constraint firstItem="zTV-96-Vvj" firstAttribute="centerY" secondItem="MV2-he-uR9" secondAttribute="centerY" id="Tv7-2i-oGD"/>
+                <constraint firstItem="Kzf-70-0dA" firstAttribute="trailing" secondItem="MV2-he-uR9" secondAttribute="trailing" id="c4u-3t-ocP"/>
+                <constraint firstItem="DDH-rv-CDL" firstAttribute="centerY" secondItem="Kzf-70-0dA" secondAttribute="centerY" id="vwT-tR-BwY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Kzf-70-0dA"/>
+            <connections>
+                <outlet property="bannerConstent" destination="nrs-fr-dyb" id="kkL-AU-LKC"/>
+                <outlet property="bannerView" destination="HOT-1J-5iE" id="2z1-xt-gUg"/>
+                <outlet property="leftLab" destination="MV2-he-uR9" id="xnS-gn-P30"/>
+                <outlet property="middenLab" destination="zTV-96-Vvj" id="EZD-sm-wA2"/>
+                <outlet property="rightLab" destination="DDH-rv-CDL" id="QO3-BS-7Cb"/>
+            </connections>
+            <point key="canvasLocation" x="52.799999999999997" y="48.575712143928037"/>
+        </view>
+    </objects>
+</document>

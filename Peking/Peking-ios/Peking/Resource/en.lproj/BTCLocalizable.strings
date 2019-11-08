@@ -1,0 +1,426 @@
+/* 
+  BTCLocalizable.strings
+  Biconome
+
+  Created by 车林 on 2019/8/15.
+  Copyright © 2019年 qsm. All rights reserved.
+*/
+
+//注册,登录
+"BICRegister" = "Register";
+
+"注册" = "Sign Up";
+"取消" = "Cancel";
+"搜索" = "Search";
+"输入密码" = "Enter password";
+"输入手机号" = "Enter phone number";
+"登录" = "Sign In";
+"登录 Biconomy" = "Sign In Biconomy";
+"在下面输入您的帐户信息" = "Enter your account information below";
+"账户" = "Account";
+"密码" = "Password";
+"重置" = "Reset";
+"忘记密码" = "Forget password?";
+"注册 Biconomy" = "Sign Up Biconomy";
+"地区" = "Area";
+"中国大陆 +86" = "China +86";
+"发送" = "Send";
+"下一步" = "Next";
+"重置密码" = "Reset Sign In Password";
+"为了账户安全，重置登录密码后24小时禁止提币" = "Withdrawals will be unavailable for next 24 hours once password is changed";
+"手机号" = "Phone Number";
+
+"确认密码" = "Confirm password";
+"确认新密码" = "Please enter a new password";
+"确认重置" = "Confirm Reset";
+"设置新密码" = "Please enter a new password";
+"确认修改" = "Confirm Change";
+"请输入新密码"="Please enter a new password";
+"请确认密码" = "Please confirm the password again";
+"至少8个字符，必须包含大写字母及数字"="At least 8 characters, must include UPPER CASE letters and numbers";
+
+
+
+"手机验证" = "SMS Authentication";
+"验证码" = "Verification Code";
+"输入手机号" = "Enter mobile phone number ";
+"收到的六位数验证码" = " the 6-digit code";
+
+"请输入谷歌验证中的六位数验证码"="Please enter the 6-digit code in your Google Authenticator APP";
+
+"请填写手机号" = "Please enter your phone number";
+"注册成功" = "Sign up successful";
+"手机号格式错误" = "Incorrect format of mobile phone number";
+"密码不能为空" = "Password cannot be empty";
+"重置密码成功" = "Successful password reset";
+"验证码发送成功" = " Verification code sent successfully ";
+"密码验证成功" = "Password Verification Successful";
+"登录成功" = "Successful Login";
+
+"密码不能少于8位，请您重新输入" = "Must not be less than 8 digits.";
+"密码最大长度为18位，请您重新输入" = "The maximum length is 18 digits";
+"密码不能包含特殊字符，请您重新输入" = "Password cannot contain special characters.";
+"密码必须同时包含大小写字母和数字" = "Must contain upper&lower letters&numbers";
+
+"重新发送" = "Resend";
+"两次输入密码不一致" = "Passwords do not match.";
+
+"选择国家和地区" = "Selection of countries and regions";
+"请输入国名或国际区号进行搜索" = "Search for country name or international area code";
+
+"登录/注册" = "Sign In/Sign Up";
+"登录密码修改成功"="Sign In password change successful";
+
+"邀请码" = "Referral ID";
+"输入邀请码" = "Enter Referral ID";
+
+
+//tabbar
+"首页" = "Home";
+"行情" = "Market";
+"交易" = "Exchange";
+"资产" = "Wallet";
+"我的" = "Profile";
+
+///首页
+"币种/成交额" = "Coin/Turnover";
+"最新价" = "Last Price";
+"24H涨跌" = "24H Change";
+"涨幅榜" = "Gainers";
+"成交额榜" = "Volume Top";
+
+//行情
+"历史记录" = "History";
+"清空" = "Clear";
+
+"取消成功" = "Cancel Succeed";
+"当前委托" = "Open Orders";
+"交易" = "Trade";
+"全部取消" = "Cancel All";
+"成交" = "Trade History";
+
+"委托价" = "Price";
+"成交均价" = "Average";
+
+"委托数量" = "Amount";
+"成交数量" = "Filled";
+
+"成交价格" = "Price";
+"成交量" = "Filled";
+"成交额" = "Total";
+"成交价" = "Price";
+
+"成交详情" = "Detail";
+"触发条件" = "Trigger";
+"全部成交" = "Filled";
+"部分成交" = "Partial Filled";
+
+"MATCH" = "Match";
+"FINISH" = "Finish";
+"CANCEL" = "Cancel";
+
+"详情"="Detail";
+
+"未登录" = "No Login";
+"登录后方可查看市场信息~" = "View market information after login";
+"自选"="Favorites";
+//交易
+"买入" = "Buy";
+"卖出" = "Sell";
+"限价" = "Limit";
+"市价" = "Market";
+"止盈止损"="Stop";
+"价格" = "Price";
+"数量" = "Amount";
+"成交额" = "Total";
+"时间" = "Date";
+"全部" = "All";
+"委托价" = "Price";
+"量" = "Volume";
+"高" = "High";
+"低" = "Low";
+"买入成功" = "Buy Succeed";
+"卖出成功" = "Sell Succeed";
+"买盘" = "Buy";
+"卖盘" = "Sell";
+"触发价格不能为空"="Trigger Price Can't Be Empty!";
+"触发价格不能为0"="Trigger Price Can't Be 0!";
+"触发价格"="Price";
+"委托数量不能为空"="Amount Can't Be Empty!";
+"确认取消全部委托?"="Confirm cancel all open orders?";
+"最小下单量为:" = "Minimum order :";
+//k线
+"分时" = "Time";
+"15分" = "15min";
+"1小时" = "1hour";
+"日线" = "1day";
+"更多" = "more";
+"指标" = "Indicator";
+"1分" = "1min";
+"5分" = "5min";
+"15分" = "15min";
+"30分" = "30min";
+"1周" = "1week";
+"1月" = "1mon";
+"主图" = "Main";
+"副图" = "Sub";
+"周线" = "week";
+
+
+"买入价格不能小于" = "Price must be at least";
+"买入价格不能大于" = "Price must be less than";
+"成交额不能大于" = "Total must be less than";
+"数量不能大于"="Amount must be less than";
+"余额不足"="Lack of balance";
+//资产
+"历史" = "History";
+"充值" = "Deposit";
+"选择币种" = "Select coin";
+"已复制" = "Copied";
+"保存失败" = "Save failure";
+"保存成功" = "Save succeed";
+"暂无搜索结果" = "No Items";
+"提币" = "Withdraw";
+"提币成功" = "Withdrawal succeed";
+"估值" = "Value";
+
+"暂停充值" = "Deposit Suspended";
+"该币种已暂停充值，感谢您的理解" = "The currency has been suspended. Thank you for your understanding";
+"暂停提币" = "Withdraw Suspended";
+"该币种已暂停提币，感谢您的理解" = "The withdrawal of this currency has been suspended. Thank you for your understanding";
+
+"待初审提币" = "In review";
+"待复审提币" = "In review";
+"待出币" = "In review";
+"打包中" = "Pending";
+"出币失败" = "Fail";
+"审核不通过" = "Fail";
+"成功" = "Completed";
+"失败" = "Fail";
+"内部转账(自身)" = "TXMIN";
+"内部转账(他人)" = "TXOIN";
+"后台加币" = "BACKEND_ADD";
+"后台减币" = "BACKEND_SUD";
+"已取消"="Cancel";
+
+//    类型：OUT提现，IN充值，BACKEND_ADD后台加币，BACKEND_SUD后台减币
+
+"币种" = "Coin";
+"备注和地址同时使用才能充值币到biconomy" = "Both MEMO and address are required to successfully deposit your tokens to biconomy";
+"地址" = "Address";
+"备注" = "Remark";
+"保存二维码" = "Save QR Code";
+"此地址只可接收BTC，充值其他资产将不可找回" = "Sending coins except BTC to this address result in the loss of your deposit";
+"此地址只可接收" = "Sending coins except ";
+"充值其他资产将不可找回" = " to this address result in the loss of your deposit";
+
+"暂无数据" = "No Items";
+
+"提币数量" = "Amount";
+"可用" = "Available";
+"最小提币数量" = "Min Withdrawal";
+"限额" = "Max Withdraw";
+"手续费" = "Fee";
+"实际到账" = "Receive Amount";
+"提币数量必填" = "Amount can not empty";
+"链类型" = "Chain Type";
+"不使用备注" = "No MEMO";
+"最大提币数量为:" = "Amount to withdraw must be less than:";
+"最小提币数量为:" = "Amount to withdraw must be at least";
+"请输入提现地址" = "Please enter address";
+//"启用"="Enable";
+"无效链接"="Invalid link";
+"总额" = "Total Balance";
+"可用余额" = "Available Balance";
+"下单冻结" = "In Order";
+
+"状态" = "Status";
+"手续费" = "Fee";
+"区块确认" = "Block confirmation";
+
+"复制Txid" = "Copy Txid";
+"检查Txid" = "Checkout Txid";
+"暂无备注信息" = "Not Remark";
+
+"保存到手机相册" = "Save To Album";
+
+//个人中心
+"登录后可享受更多服务" = "More services after sign in";
+"设置" = "Setting";
+"语言选择" = "Language";
+"密钥" = "Google key";
+"复制密钥" = "Copy";
+"历史委托" = "History Orders";
+"退出登录" = "Log out";
+
+"帮助与反馈"="Support";
+
+"启用"="Enable";
+
+"修改密码"="Change Password";
+"原密码"="Old password";
+"输入原密码"="Please enter the old password";
+
+
+"汇率" = "Currency";
+"通用设置" = "General Settings";
+"关于" = "About";
+"关于Biconomy" = "About Biconomy";
+"费率" = "Fee";
+
+
+"功能介绍" = "Introduction";
+"服务条款" = "Terms of service";
+"隐私政策" = "Privacy policy";
+"账户安全" = "Security";
+"复制成功" = "Copied";
+
+"谷歌验证成功" = "Google Authenticatior Successful ";
+"谷歌验证码格式错误" = "Google Verificatior Code Format Error";
+
+"登录密码" = "Login Password";
+"谷歌验证码" = "Google Verificatior Code";
+"谷歌验证" = "Google Verificatior";
+"谷歌验证or" = "Google Authenticatior";
+"已启用"="Enabled";
+
+
+"身份认证"="Identity Verification";
+"未认证"="Unverified";
+"已认证"="Authenticated";
+"基本信息"="Basic Info";
+"住宅信息"="Residential Address";
+"身份信息"="Identify Info";
+"证件照片"="ID info";
+"未提交"="Not Submit";
+"名字"="Name";
+"中间名(可选)"="Middle Name(optional)";
+"姓氏"="Last Name";
+"性别"="Gender";
+"出生日期"="Date of Birth";
+"男"="Man";
+"女"="Woman";
+"国家/地区"="Country/Region";
+"城市"="City";
+"邮编"="Postal Code";
+"请输入名字"="Please enter your first name";
+"请输入中间名"="Please enter your middle name";
+"请输入姓氏"="Please enter your last name";
+"提交"="Submit";
+"选择性别"="Choose Gender";
+"请输入城市"="Please enter your city";
+"请输入邮编"="Please enter your postal code";
+"请输入地址"="Please enter your address";
+"证件类型"="ID type";
+"证件号码"="Card Number";
+"请输入证件号码"="Please enter your Card Number";
+"证件有效期"="Period of validity";
+"身份证"="Identify card";
+"护照"="Passport";
+"驾驶证"="Driver's license";
+"身份证正面"="Front of identity card";
+"身份证背面"="Back of identity card";
+"手持证件照"="Upload a selfie";
+"上传包含biconomy.com和当日日期的手写纸条"="Upload a photograph of selfie.Includes handwritten 'biconomy' and current date";
+"驾照照片页"="Upload driver's license photo page";
+"护照照片页"="Upload passport photo page";
+"年龄"="Age";
+"请输入年龄"="Please enter your age";
+"驳回"="Rejected";
+"审核中"="In review";
+"已通过"="Approved";
+"未通过"="Refused";
+"请先选择证件类型"="Please Select ID type first";
+"请输入性别"="Please enter your gender";
+"请输入出生日期"="Please enter your date of birth";
+"请输入国家/地区"="Please enter your country or region";
+"请输入城市"="Please enter your city";
+"请输入邮编"="Please enter your postal code";
+"请输入地址"="Please enter your address";
+"请选择签发国家/地区"="Please choose issuing country";
+"请选择证件类型"="Please select ID type";
+"请输入证件有效期"="Please enter card period of validity";
+"请上传身份证正面"="Please upload front of identity card";
+"请上传身份证背面"="Please upload back of identity card";
+"请上传您的手持证件照"="Please upload a selfie";
+"请上传护照照片页"="Please upload passport photo page";
+"请上传驾驶证照片页"="Please driver's license photo page";
+"等待审核"="Waiting for review";
+"开始日期"="start date";
+"结束日期"="end date";
+"身份认证信息已提交审核.."="Identity verification information has been submitted to biconomy.com";
+"身份认证已通过"="Identity authentication has passed";
+"版本更新"="Version Update";
+"更新"="Update";
+"提示"="Tips";
+"确认取消该笔提币?"="Confirm to cancel the withdrawal?";
+"再想想"="Later";
+"确认取消"="Confirm";
+"审核未通过"="Unapprove";
+"验证"="Verification";
+"拍摄"="Shooting";
+"从相册选择"="Select from album";
+"触发价格"="Trigger Price";
+"开"="open";
+"低"="low";
+"高"="high";
+"收"="close";
+"涨跌额"="change";
+"涨跌幅"="Quote change";
+//网络请求
+"当前网络不可用，请检查网络" = "network is not available, please check";
+"服务器异常！" = "Server exception!";
+"操作成功" = " Successful operation ";
+"请求异常,请重新尝试" = "Request exception, please try again";
+"配置信息请求失败返回重试" = "Configuration information request failed to return to retry";
+"取消网络请求" = "Cancel Network Request";
+"找不到地址！" = " No address found！";
+"请求失败！" = "request was aborted！";
+"验证失败！" = "Validation failed！";
+"网络超时，请重试"="Network timeout, please try again";
+
+//返佣记录
+"返佣记录" = "Cashback";
+"邀请返佣" = "Referral";
+"邀请记录" = "Invitation";
+"排行榜" = "Top";
+"邀请好友注册 Biconomy 获得" = "Invite friends to sign up for Biconomy and get";
+"交易返佣" = "Cashback";
+
+//邀请好友注册 Biconomy，获得 XX% 交易返佣
+//Invite friends to sign up for Biconomy and get XX% Cashback
+"返佣金额" = "Commission";
+"直接邀请(人)" = "Direct Referral";
+"间接邀请(人)" = "Indirect Referral";
+"邀请方式" = "Referral method";
+"邀请二维码" = "QR code";
+"邀请链接" = "Referral Link";
+"邀请码" = "Referral ID";
+"规则" = "Rule";
+"特别注意" = "Pay Attention";
+
+"生效" = "Abled";
+"失效" = "Disabled";
+
+
+//第三方应用
+"相册" = "Album";
+"轻触照亮" = "Tap on";
+"轻触关闭" = "Tap off";
+"将取景框对准二维码,即可自动扫描" = "Automatically scanned";
+"条形码" = "Bar code";
+"二维码" = "QR code";
+
+"图片中未识别到二维码"="The QR code is not recognized in the image";
+"只支持iOS8.0以上系统"="Only supports iOS8.0 and above";
+"知道了"="OK";
+"提示"="Alert";
+"请到手机系统的\n【设置】->【隐私】->【相机】\n对\"%@\"开启相机的访问权限"="Please go to the phone system \n[Settings]->[Privacy]->[Camera]\n \"%@\" to open the camera access";
+"相机权限未开启"="Camera permissions are not turned on";
+
+"你的账号已在别处登录" = "Your account has been signed in elsewhere";
+
+//
+
+
+

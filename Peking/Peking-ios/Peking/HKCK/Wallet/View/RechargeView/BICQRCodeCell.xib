@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="BICQRCodeCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="285"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="285"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Gz-0V-Meh">
+                        <rect key="frame" x="16" y="275" width="343" height="10"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="ay8-2m-sPS"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DAd-5y-PkF">
+                        <rect key="frame" x="16" y="0.0" width="343" height="285"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="42x-E4-4bw">
+                                <rect key="frame" x="24" y="24" width="295" height="65"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="备注和地址同时使用才能充值ONE到bic" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqj-0C-h1h">
+                                        <rect key="frame" x="16" y="12" width="263" height="36"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="0.59607843137254901" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="QBm-Bx-vb5"/>
+                                    <constraint firstItem="Lqj-0C-h1h" firstAttribute="top" secondItem="42x-E4-4bw" secondAttribute="top" constant="12" id="dv6-MP-KKp"/>
+                                    <constraint firstAttribute="trailing" secondItem="Lqj-0C-h1h" secondAttribute="trailing" constant="16" id="mDe-Kj-k9u"/>
+                                    <constraint firstItem="Lqj-0C-h1h" firstAttribute="leading" secondItem="42x-E4-4bw" secondAttribute="leading" constant="16" id="s51-As-T4g"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dZ6-xT-F2d">
+                                <rect key="frame" x="91.5" y="113" width="160" height="160"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="VJP-ey-1yp"/>
+                                    <constraint firstAttribute="width" constant="160" id="mRO-5y-oGc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dZ6-xT-F2d" firstAttribute="centerX" secondItem="DAd-5y-PkF" secondAttribute="centerX" id="LTD-Hs-lP7"/>
+                            <constraint firstItem="dZ6-xT-F2d" firstAttribute="top" secondItem="42x-E4-4bw" secondAttribute="bottom" constant="24" id="NBa-7c-Lfe"/>
+                            <constraint firstItem="42x-E4-4bw" firstAttribute="leading" secondItem="DAd-5y-PkF" secondAttribute="leading" constant="24" id="QZJ-ba-K6t"/>
+                            <constraint firstItem="42x-E4-4bw" firstAttribute="top" secondItem="DAd-5y-PkF" secondAttribute="top" constant="24" id="n3f-YU-no7"/>
+                            <constraint firstAttribute="trailing" secondItem="42x-E4-4bw" secondAttribute="trailing" constant="24" id="phO-Vt-2nA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.95294117647058818" green="0.96078431372549022" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="DAd-5y-PkF" secondAttribute="trailing" constant="16" id="3ho-0I-3Mh"/>
+                    <constraint firstAttribute="bottom" secondItem="8Gz-0V-Meh" secondAttribute="bottom" id="5QH-Os-hzX"/>
+                    <constraint firstAttribute="bottom" secondItem="DAd-5y-PkF" secondAttribute="bottom" id="7mf-ma-BAx"/>
+                    <constraint firstItem="DAd-5y-PkF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Wzf-kx-Dqk"/>
+                    <constraint firstItem="DAd-5y-PkF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZEE-eT-Mhk"/>
+                    <constraint firstAttribute="trailing" secondItem="8Gz-0V-Meh" secondAttribute="trailing" constant="16" id="p1r-Hn-4nS"/>
+                    <constraint firstItem="8Gz-0V-Meh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="zBS-mg-jWD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="QRImage" destination="dZ6-xT-F2d" id="peL-kG-48I"/>
+                <outlet property="bgView" destination="DAd-5y-PkF" id="cXb-YL-fCI"/>
+                <outlet property="titleBGViewHeight" destination="QBm-Bx-vb5" id="yBU-rn-TxH"/>
+                <outlet property="titleBgView" destination="42x-E4-4bw" id="xcF-no-QcM"/>
+                <outlet property="titletextLab" destination="Lqj-0C-h1h" id="dzT-e6-nJJ"/>
+            </connections>
+            <point key="canvasLocation" x="136.80000000000001" y="146.17691154422789"/>
+        </tableViewCell>
+    </objects>
+</document>

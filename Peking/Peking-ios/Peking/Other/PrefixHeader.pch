@@ -1,0 +1,67 @@
+//
+//  PrefixHeader.pch
+//  Biconome
+//
+//  Created by 车林 on 2019/8/3.
+//  Copyright © 2019年 qsm. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Header.h"
+#import "SDColorMacro.h"
+#import "RSDConfig.h"
+#import "Service.h"
+#import "KLine.h"
+#import "LanguageSystemColor.h"
+#import "YQCategory.h"
+
+
+#import <AFNetworking.h>
+#import "IQKeyboardManager.h"
+#import <MBProgressHUD.h>
+#import <MJRefresh.h>
+#import <Masonry.h>
+#import <YYModel.h>
+#import "JSONModel.h"
+
+#import "SDAutoLayout.h"
+#import "UIView+CustomFrame.h"
+#import "TalkingData.h"
+#import "UIColor+SDCustomColor.h"
+#import "SDDeviceManager.h"
+#import "UIColor+Extend.h"
+#import "UIImage+Color.h"
+#import "ODAlertViewFactory.h"
+#import "NSString+Extend.h"
+#import <Masonry/Masonry.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import "UIView+ExtensionOther.h"
+#import "UIControl+ZHW.h"
+
+#import "UtilsManager.h"
+#import "SDRuleView.h"
+#import "BICDeviceManager.h"
+
+#import "BaseTabBarController.h"
+#import "BaseNavigationController.h"
+#import "BaseModel.h"
+#import "RSDBaseRequest.h"
+
+#import "RSDBaseResponse.h"
+#import "RSDBaseService.h"
+
+#import "BICBaseResponse.h"
+
+#import "BICBaseRequest.h"
+
+#import "AAGlobalMacro.h"
+#import "BaseViewController.h"
+#import "BICBaseTableViewCell.h"
+
+#import "CustomGifHeader.h"
+
+
+#endif /* PrefixHeader_pch */

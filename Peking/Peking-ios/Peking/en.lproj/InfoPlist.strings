@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Biconome
+
+  Created by a on 2019/10/16.
+  Copyright © 2019 qsm. All rights reserved.
+*/
+"NSCameraUsageDescription"="Biconomy requires your permission to access the camera";
+"NSPhotoLibraryAddUsageDescription"="Biconomy requires your permission to save images";
+"NSPhotoLibraryUsageDescription"="Biconomy requires your permission to access the album";

@@ -1,0 +1,23 @@
+//
+//  BICSearchHeaderView.h
+//  Biconome
+//
+//  Created by 车林 on 2019/8/16.
+//  Copyright © 2019年 qsm. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+typedef void(^SearchBlock) (void);
+typedef void(^RightBlock) (void);
+
+@interface BICWASearchHeaderView : UIView
+@property (weak, nonatomic) IBOutlet UILabel *searchLab;
+
+-(instancetype)initWithNib:(SearchBlock)searchBlock RightBlock:(RightBlock)right;
+
+@end
+
+NS_ASSUME_NONNULL_END

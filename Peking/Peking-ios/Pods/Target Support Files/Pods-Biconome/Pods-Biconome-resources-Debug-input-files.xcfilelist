@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-Biconome/Pods-Biconome-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/AAChartKit/AAChartKitLib.bundle
+${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle
+${PODS_ROOT}/PYPhotoBrowser/PYPhotoBrowser/PYPhotosView.bundle
+${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle
+${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle

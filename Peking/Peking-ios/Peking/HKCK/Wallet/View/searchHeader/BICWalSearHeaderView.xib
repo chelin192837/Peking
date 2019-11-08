@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BICWalSearHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="52"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KXk-NQ-WvF">
+                    <rect key="frame" x="16" y="4" width="343" height="36"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_market" translatesAutoresizingMaskIntoConstraints="NO" id="JUe-lA-pCB">
+                            <rect key="frame" x="12" y="8" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="VgI-T4-ZMB"/>
+                                <constraint firstAttribute="width" constant="20" id="lQC-nK-ci7"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搜索" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOp-mn-VgG">
+                            <rect key="frame" x="36" y="8.5" width="33" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.68235294117647061" green="0.69019607843137254" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.94117647058823528" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="JUe-lA-pCB" firstAttribute="centerY" secondItem="KXk-NQ-WvF" secondAttribute="centerY" id="0eN-1Z-e4h"/>
+                        <constraint firstItem="JUe-lA-pCB" firstAttribute="leading" secondItem="KXk-NQ-WvF" secondAttribute="leading" constant="12" id="2so-bb-3NO"/>
+                        <constraint firstAttribute="height" constant="36" id="Q3o-Lg-Txh"/>
+                        <constraint firstItem="uOp-mn-VgG" firstAttribute="leading" secondItem="JUe-lA-pCB" secondAttribute="trailing" constant="4" id="aCw-s2-VI5"/>
+                        <constraint firstItem="uOp-mn-VgG" firstAttribute="centerY" secondItem="KXk-NQ-WvF" secondAttribute="centerY" id="zHz-kD-Bcd"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="KXk-NQ-WvF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="CE6-iz-37t"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="KXk-NQ-WvF" secondAttribute="trailing" constant="16" id="QVi-Cy-HON"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="KXk-NQ-WvF" secondAttribute="bottom" constant="12" id="sq8-Jr-16r"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="searchLab" destination="uOp-mn-VgG" id="gnQ-Ue-lOh"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="132.23388305847078"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="search_market" width="40" height="40"/>
+    </resources>
+</document>

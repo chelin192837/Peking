@@ -1,0 +1,23 @@
+//
+//  BICMineComSecCell.h
+//  Biconome
+//
+//  Created by 车林 on 2019/9/4.
+//  Copyright © 2019年 qsm. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface BICMineComSecCell : UITableViewCell
++(instancetype)exitWithTableView:(UITableView*)tableView;
+
+@property (weak, nonatomic) IBOutlet UIView *bottomView;
+
+@property (weak, nonatomic) IBOutlet UILabel *titleTexLab;
+@property (weak, nonatomic) IBOutlet UILabel *rightLab;
+
+@end
+
+NS_ASSUME_NONNULL_END

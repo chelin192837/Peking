@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="BICPauseRechargeCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert" translatesAutoresizingMaskIntoConstraints="NO" id="hUE-Ka-wb9">
+                        <rect key="frame" x="107.5" y="40" width="160" height="160"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="160" id="Zdd-u0-wGY"/>
+                            <constraint firstAttribute="width" constant="160" id="lzn-bI-kuf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂停充值" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSw-VI-yAv">
+                        <rect key="frame" x="154.5" y="200" width="66" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.39215686274509803" green="0.40000000000000002" blue="0.42352941176470588" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="该币种已暂停充值，感谢您的理解" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1o3-1k-e6G">
+                        <rect key="frame" x="16" y="228" width="343" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.58431372549019611" green="0.59215686274509804" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1o3-1k-e6G" firstAttribute="centerX" secondItem="ZSw-VI-yAv" secondAttribute="centerX" id="67w-gD-DK6"/>
+                    <constraint firstItem="1o3-1k-e6G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="8TL-dA-4AV"/>
+                    <constraint firstItem="hUE-Ka-wb9" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="KSc-6T-fIb"/>
+                    <constraint firstItem="ZSw-VI-yAv" firstAttribute="top" secondItem="hUE-Ka-wb9" secondAttribute="bottom" id="RQj-hS-WjE"/>
+                    <constraint firstItem="ZSw-VI-yAv" firstAttribute="centerX" secondItem="hUE-Ka-wb9" secondAttribute="centerX" id="T7y-z7-Ffd"/>
+                    <constraint firstItem="hUE-Ka-wb9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="g9h-rZ-x6Y"/>
+                    <constraint firstItem="1o3-1k-e6G" firstAttribute="top" secondItem="ZSw-VI-yAv" secondAttribute="bottom" constant="8" id="pjy-B2-yIY"/>
+                    <constraint firstAttribute="trailing" secondItem="1o3-1k-e6G" secondAttribute="trailing" constant="16" id="r7r-3a-Yix"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="detailTitleLab" destination="1o3-1k-e6G" id="Keh-6l-6lr"/>
+                <outlet property="mainTitleLab" destination="ZSw-VI-yAv" id="WJy-5J-OfX"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="alert" width="160" height="143"/>
+    </resources>
+</document>

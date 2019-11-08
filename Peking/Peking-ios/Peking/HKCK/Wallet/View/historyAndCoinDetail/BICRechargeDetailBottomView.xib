@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4Us-jZ-BSl" customClass="BICRechargeDetailBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ip3-UK-9VR">
+                    <rect key="frame" x="16" y="10" width="163.5" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="复制Txid">
+                        <color key="titleColor" red="0.40000000000000002" green="0.32549019607843138" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.40000000000000002" green="0.32549019607843138" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="rechargeBtn:" destination="4Us-jZ-BSl" eventType="touchUpInside" id="v8d-tp-gyr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlT-id-fYI">
+                    <rect key="frame" x="195.5" y="10" width="163.5" height="44"/>
+                    <color key="backgroundColor" red="0.40000000000000002" green="0.32549019607843138" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="检查Txid">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="drawBtn:" destination="4Us-jZ-BSl" eventType="touchUpInside" id="ttw-Nl-GNY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.95294117647058818" green="0.96078431372549022" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ip3-UK-9VR" firstAttribute="top" secondItem="DBi-Ow-77L" secondAttribute="top" constant="10" id="D6n-PT-RSC"/>
+                <constraint firstItem="FlT-id-fYI" firstAttribute="leading" secondItem="DBi-Ow-77L" secondAttribute="centerX" constant="8" id="Mrz-dN-5yG"/>
+                <constraint firstItem="ip3-UK-9VR" firstAttribute="trailing" secondItem="DBi-Ow-77L" secondAttribute="centerX" constant="-8" id="URa-iZ-3eO"/>
+                <constraint firstItem="DBi-Ow-77L" firstAttribute="bottom" secondItem="ip3-UK-9VR" secondAttribute="bottom" constant="10" id="hPo-ao-rXw"/>
+                <constraint firstItem="DBi-Ow-77L" firstAttribute="bottom" secondItem="FlT-id-fYI" secondAttribute="bottom" constant="10" id="hPx-4A-eaF"/>
+                <constraint firstItem="ip3-UK-9VR" firstAttribute="leading" secondItem="DBi-Ow-77L" secondAttribute="leading" constant="16" id="nhQ-fl-zQO"/>
+                <constraint firstItem="FlT-id-fYI" firstAttribute="top" secondItem="DBi-Ow-77L" secondAttribute="top" constant="10" id="si4-0w-8t6"/>
+                <constraint firstItem="DBi-Ow-77L" firstAttribute="trailing" secondItem="FlT-id-fYI" secondAttribute="trailing" constant="16" id="uC5-1K-wU8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="DBi-Ow-77L"/>
+            <connections>
+                <outlet property="checkBtn" destination="FlT-id-fYI" id="kc7-Ys-VcB"/>
+                <outlet property="kcopyBtn" destination="ip3-UK-9VR" id="6eY-KX-Y4J"/>
+            </connections>
+        </view>
+    </objects>
+</document>
